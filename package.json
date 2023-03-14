@@ -10,7 +10,8 @@
     "dev": "NODE_OPTIONS='--inspect' next dev",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "precommit": "lint-staged"
   },
   "dependencies": {
     "@types/cors": "^2.8.6",
