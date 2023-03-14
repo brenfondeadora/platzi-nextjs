@@ -11,7 +11,7 @@
     "build": "next build",
     "start": "next start",
     "type-check": "tsc --noEmit",
-    "precommit": "lint-staged"
+    "pre-commit": "lint-staged"
   },
   "dependencies": {
     "@types/cors": "^2.8.6",
